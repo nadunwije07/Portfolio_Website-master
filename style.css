@@ -246,6 +246,13 @@ ul li a:hover{
 	background-color: white;
 	text-align: center;
 }
+
+.bottom-container{
+  background-color: #4663ac;
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+
 .profile{
 	width: 50%;
 	margin-left: 25%;
@@ -340,6 +347,7 @@ ul li a:hover{
   background:#005b96;
 }
 .contact-me{
+  background-color: ;
 	width: 50%;
 	margin-left: 25%;
 	margin-bottom: 20%;
@@ -487,12 +495,8 @@ ul li a:hover{
   font-size: 0.85rem;
 }
 .btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  background: #000;
+  
   -webkit-border-radius: 25;
   -moz-border-radius: 225;
   border-radius: 8px;
@@ -504,7 +508,7 @@ ul li a:hover{
 }
 
 .btn:hover {
-  background: #30e3cb;
+  background: #000;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -615,7 +619,10 @@ ul li a:hover{
   .skills{
     width: 90%;
     margin-left: 5%;
+    background-color: #e1ebe8;
   }
+
+  
   .timelineContent{
     width: 90%;
   }
@@ -716,4 +723,6 @@ ul li a:hover{
     width: 100%;
     margin: 3% 35%;
   }
+
+  
 }
